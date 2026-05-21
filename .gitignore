@@ -1,0 +1,18 @@
+# System Files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Project Structure Cache
+node_modules/
+.idea/
+.vscode/
+
+# Local Dev
+.gemini/
+*.log
+
+# Personal Scratch
+scratch/
+cv/
+*.docx

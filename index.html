@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Engr. Leah Irish M. Estrella | Computer Engineer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav class="glass-nav">
+        <div class="nav-content">
+            <div class="logo">
+                <a href="index.html" style="color: inherit; text-decoration: none;">LE.sys</a>
+            </div>
+            <div class="nav-links">
+                <a href="skills.html" class="nav-item">Diagnostics</a>
+                <a href="experience.html" class="nav-item">Experience</a>
+                <a href="projects.html" class="nav-item">Projects</a>
+            </div>
+        </div>
+    </nav>
+
+    <main class="container">
+        <!-- Hero Section with Profile Picture -->
+        <section id="hero" class="hero fade-in"
+            style="display: grid; grid-template-columns: 1fr 1fr; gap: 4rem; align-items: center;">
+            <div class="hero-content">
+                <div class="hero-badge" style="animation: fade-up 1s ease forwards;">
+                    <i data-lucide="cpu" class="badge-icon"></i> NCII Certified Hardware & Software Engineer
+                </div>
+                <h1 class="hero-title">Bridging <span class="accent-text">Hardware</span><br>& Modern Web Dev.</h1>
+                <p class="hero-subtitle">
+                    I am Leah Irish M. Estrella, a Computer Engineer passionate about building systems from bare-metal
+                    infrastructure to high-fidelity, user-centric web applications.
+                </p>
+                <div class="hero-actions">
+                    <a href="projects.html" class="btn btn-primary" style="transition: all 0.3s; transform-origin: center;">View Systems Log</a>
+                    <a href="#" class="btn btn-secondary">
+                        <i data-lucide="github" style="width: 18px; height: 18px;"></i> GitHub Auth
+                    </a>
+                </div>
+            </div>
+
+            <div class="profile-image-container" style="position: relative; text-align: center; display: flex; flex-direction: column; align-items: center; justify-content: center;">
+                <div class="glow-orb" style="position: absolute; width: 300px; height: 300px; background: radial-gradient(circle, rgba(255,42,42,0.4) 0%, rgba(0,0,0,0) 70%); top: 50%; left: 50%; transform: translate(-50%, -50%); z-index: 0; pointer-events: none; animation: pulse-orb 4s ease-in-out infinite alternate;"></div>
+                <img id="profile-pic" src="assets/profile/profile-nobg.png" alt="Leah Irish M. Estrella"
+                        style="width: 100%; max-width: 450px; display: block; position: relative; z-index: 1; filter: drop-shadow(0 10px 20px rgba(0,0,0,0.8));" onerror="this.src='assets/profile/profile.jpg'"/>
+                <div class="font-mono text-xs"
+                    style="margin-top: 1.5rem; color: var(--text-primary); text-transform: uppercase; background: rgba(5,5,5,0.7); padding: 0.5rem 1rem; border-radius: 20px; border: 1px solid #333; position: relative; z-index: 2;">
+                    <i data-lucide="user" style="width: 14px; height: 14px; display: inline; vertical-align: middle;"></i> User_Estrella_L_I_M active
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 Leah Irish M. Estrella. System engineered with precision.</p>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>

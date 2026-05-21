@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diagnostics | Leah Estrella</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="glass-nav">
+        <div class="nav-content">
+            <div class="logo">
+                <a href="index.html" style="color: inherit; text-decoration: none;">LE.sys</a>
+            </div>
+            <div class="nav-links">
+                <a href="skills.html" class="nav-item root-active" style="color: var(--text-primary); border-bottom: 1px solid var(--accent-red);">Diagnostics</a>
+                <a href="experience.html" class="nav-item">Experience</a>
+                <a href="projects.html" class="nav-item">Projects</a>
+            </div>
+        </div>
+    </nav>
+
+    <main class="container py-nav">
+        <section id="skills" class="section-spacing fade-in">
+            <h2 class="section-header"><i data-lucide="activity"></i> System Diagnostics</h2>
+            <div class="diagnostics-grid">
+                <!-- Hardware Module -->
+                <div class="diag-card glass-card">
+                    <div class="diag-header">
+                        <i data-lucide="server" class="status-icon"></i>
+                        <h3>Hardware Infrastructure</h3>
+                        <span class="status-badge">Optimal</span>
+                    </div>
+                    <ul class="tech-list">
+                        <li><span class="metric">Network Setup</span> <span class="value accent-text">NCII Certified</span></li>
+                        <li><span class="metric">Basic Electronics</span> <span class="value">Active</span></li>
+                        <li><span class="metric">Computer Repair</span> <span class="value">Active</span></li>
+                    </ul>
+                </div>
+                
+                <!-- Software Module -->
+                <div class="diag-card glass-card">
+                    <div class="diag-header">
+                        <i data-lucide="code-2" class="status-icon"></i>
+                        <h3>Core Software</h3>
+                        <span class="status-badge">Optimal</span>
+                    </div>
+                    <ul class="tech-list">
+                        <li><span class="metric">Languages</span> <span class="value">C++, Python, Java</span></li>
+                        <li><span class="metric">Database</span> <span class="value">MySQL</span></li>
+                        <li><span class="metric">AI Dev</span> <span class="value">Copilot, Cursor</span></li>
+                    </ul>
+                </div>
+
+                <!-- Web Module -->
+                <div class="diag-card glass-card">
+                    <div class="diag-header">
+                        <i data-lucide="layout" class="status-icon"></i>
+                        <h3>Front-End Architecture</h3>
+                        <span class="status-badge">Optimal</span>
+                    </div>
+                    <ul class="tech-list">
+                        <li><span class="metric">Framework</span> <span class="value">React, Next.js</span></li>
+                        <li><span class="metric">Styling</span> <span class="value">CSS, Tailwind</span></li>
+                        <li><span class="metric">Design</span> <span class="value">Figma (Prototyping)</span></li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 Leah Estrella. System engineered with precision.</p>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <script src="script.js"></script>
+</body>
+</html>
